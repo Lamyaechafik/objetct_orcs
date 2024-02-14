@@ -175,19 +175,19 @@
 // console.log(porche);
 // console.log(porche.findCar(0));
 
-class Person {
-    static eyeColors () {
-      return ['blue', 'green', 'brown'];
-    }
-class SuperHero extends Person{
-        constructor(name, age, hair){
-            super()
-            this.name = name;
-            this.age = age;
-            this.hair = hair;
-        }
-    }
-}
+// class Person {
+//     static eyeColors () {
+//       return ['blue', 'green', 'brown'];
+//     }
+// class SuperHero extends Person{
+//         constructor(name, age, hair){
+//             super()
+//             this.name = name;
+//             this.age = age;
+//             this.hair = hair;
+//         }
+//     }
+// }
 
-const Superman = new SuperHero('Clark Kent', 30, Person.eyeColors()[0], 'black');
-console.log(Superman);
+// const Superman = new SuperHero('Clark Kent', 30, Person.eyeColors()[0], 'black');
+// console.log(Superman);
